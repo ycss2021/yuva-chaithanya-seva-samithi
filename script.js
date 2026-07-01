@@ -82,3 +82,19 @@ wa.innerHTML = `<span class="wa-icon">💬</span>`;
 document.body.appendChild(wa);
 
 });
+let topBtn = document.createElement("button");
+
+topBtn.innerHTML = "⬆";
+topBtn.id = "topBtn";
+
+document.body.appendChild(topBtn);
+
+topBtn.onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
+window.addEventListener("scroll", () => {
+if (document.documentElement.scrollTop > 300) {
+topBtn.style.display = "block";
+} else {
+topBtn.style.display = "none";
+}
+});
