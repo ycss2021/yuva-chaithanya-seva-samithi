@@ -69,3 +69,16 @@ update();
 }
 
 });
+document.addEventListener("DOMContentLoaded", function () {
+
+let wa = document.createElement("a");
+
+wa.href = "https://wa.me/919030946444?text=Hello%20YCSS%20NGO";
+wa.target = "_blank";
+wa.className = "whatsapp-float";
+
+wa.innerHTML = `<span class="wa-icon">💬</span>`;
+
+document.body.appendChild(wa);
+
+});
