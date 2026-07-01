@@ -158,3 +158,37 @@ padding:20px;
     line-height:1.7;
     color:#555;
 }
+.about ul{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+
+.about li{
+    padding:8px;
+    font-size:22px;
+}
+
+.program-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+    margin-top:30px;
+}
+
+.card{
+    background:#fff;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+    text-align:left;
+}
+
+.card h3{
+    color:#003366;
+    margin-bottom:10px;
+}
+
+.card p{
+    line-height:1.6;
+}
