@@ -98,3 +98,24 @@ topBtn.style.display = "block";
 topBtn.style.display = "none";
 }
 });
+document.addEventListener("DOMContentLoaded", function () {
+
+const footer = document.querySelector("footer");
+
+if (footer) {
+footer.insertAdjacentHTML("beforeend", `
+<div class="social-icons">
+
+<a href="https://www.facebook.com/YCSSNGO" target="_blank">📘</a>
+
+<a href="https://www.instagram.com/" target="_blank">📷</a>
+
+<a href="https://www.linkedin.com/" target="_blank">💼</a>
+
+<a href="https://www.youtube.com/" target="_blank">▶️</a>
+
+</div>
+`);
+}
+
+});
