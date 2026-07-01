@@ -125,7 +125,7 @@ const logo = document.querySelector(".logo");
 
 if (logo) {
 logo.innerHTML = `
-<img src="YCSS%20logo.jpg" alt="YCSS Logo">
+<img src="YCSS-logo.jpg" alt="YCSS Logo">
 
 <div>
 <h1>YCSS NGO</h1>
