@@ -242,3 +242,149 @@ gap:25px;
 .card{
 background:white;
 padding:
+/* ===========================
+   IMAGE EFFECTS
+=========================== */
+
+.card img{
+width:100%;
+height:250px;
+object-fit:cover;
+border-radius:10px;
+transition:.4s;
+}
+
+.card img:hover{
+transform:scale(1.05);
+}
+
+/* ===========================
+   SECTION ANIMATION
+=========================== */
+
+section{
+animation:fadeUp 1s ease;
+}
+
+@keyframes fadeUp{
+
+from{
+
+opacity:0;
+transform:translateY(40px);
+
+}
+
+to{
+
+opacity:1;
+transform:translateY(0);
+
+}
+
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+
+.btn,
+.btn2{
+
+box-shadow:0 8px 25px rgba(0,0,0,.25);
+
+}
+
+.btn:hover{
+
+transform:translateY(-3px);
+
+}
+
+.btn2:hover{
+
+transform:translateY(-3px);
+
+}
+
+/* ===========================
+   CARDS
+=========================== */
+
+.card{
+
+transition:.4s;
+overflow:hidden;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+box-shadow:0 20px 35px rgba(0,0,0,.18);
+
+}
+
+/* ===========================
+   FOOTER
+=========================== */
+
+footer{
+
+background:#001c3d;
+padding:40px;
+text-align:center;
+color:white;
+font-size:18px;
+
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media(max-width:768px){
+
+.container{
+
+flex-direction:column;
+
+}
+
+nav{
+
+justify-content:center;
+
+}
+
+.hero{
+
+height:70vh;
+
+}
+
+.overlay h2{
+
+font-size:36px;
+
+}
+
+.overlay p{
+
+font-size:18px;
+
+}
+
+.program-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.impact-grid{
+
+grid-template-columns:1fr 1fr;
+
+}
+
+}
