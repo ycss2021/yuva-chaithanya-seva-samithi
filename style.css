@@ -746,3 +746,28 @@ display:none;
 z-index:99999;
 cursor:pointer;
 }
+.social-icons{
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:15px;
+}
+
+.social-icons a{
+width:45px;
+height:45px;
+background:#003366;
+color:#fff;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+font-size:22px;
+transition:.3s;
+}
+
+.social-icons a:hover{
+background:#25D366;
+transform:scale(1.1);
+}
