@@ -91,3 +91,29 @@ color:white;
 text-align:center;
 padding:20px;
 }
+/* Vision & Mission */
+
+.vision,
+.mission{
+    width:80%;
+    margin:60px auto;
+    text-align:center;
+    background:#f8f9fa;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+.vision h2,
+.mission h2{
+    color:#003366;
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.vision p,
+.mission p{
+    font-size:20px;
+    line-height:1.8;
+    color:#444;
+}
