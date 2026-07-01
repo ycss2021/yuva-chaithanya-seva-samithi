@@ -192,3 +192,45 @@ padding:20px;
 .card p{
     line-height:1.6;
 }
+/* Impact Section */
+
+.impact{
+padding:70px 10%;
+background:#f5f9ff;
+text-align:center;
+}
+
+.impact h2{
+font-size:42px;
+color:#003366;
+margin-bottom:40px;
+}
+
+.impact-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.impact-box{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.impact-box:hover{
+transform:translateY(-8px);
+}
+
+.impact-box h3{
+font-size:45px;
+color:#ff6600;
+margin-bottom:10px;
+}
+
+.impact-box p{
+font-size:20px;
+color:#444;
+}
