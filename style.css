@@ -771,3 +771,29 @@ transition:.3s;
 background:#25D366;
 transform:scale(1.1);
 }
+.logo{
+display:flex;
+align-items:center;
+gap:15px;
+}
+
+.logo img{
+width:60px;
+height:60px;
+object-fit:contain;
+background:#fff;
+border-radius:50%;
+padding:4px;
+}
+
+.logo h1{
+margin:0;
+font-size:30px;
+color:#fff;
+}
+
+.logo p{
+margin:0;
+font-size:14px;
+color:#ddd;
+}
