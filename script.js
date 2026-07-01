@@ -119,3 +119,19 @@ footer.insertAdjacentHTML("beforeend", `
 }
 
 });
+document.addEventListener("DOMContentLoaded", function () {
+
+const logo = document.querySelector(".logo");
+
+if (logo) {
+logo.innerHTML = `
+<img src="YCSS%20logo.jpg" alt="YCSS Logo">
+
+<div>
+<h1>YCSS NGO</h1>
+<p>Yuva Chaithanya Seva Samithi</p>
+</div>
+`;
+}
+
+});
