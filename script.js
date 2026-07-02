@@ -69,19 +69,6 @@ update();
 }
 
 });
-document.addEventListener("DOMContentLoaded", function () {
-
-let wa = document.createElement("a");
-
-wa.href = "https://wa.me/919030946444?text=Hello%20YCSS%20NGO";
-wa.target = "_blank";
-wa.className = "whatsapp-float";
-
-wa.innerHTML = `<span class="wa-icon">💬</span>`;
-
-document.body.appendChild(wa);
-
-});
 let topBtn = document.createElement("button");
 
 topBtn.innerHTML = "⬆";
@@ -98,43 +85,7 @@ topBtn.style.display = "block";
 topBtn.style.display = "none";
 }
 });
-document.addEventListener("DOMContentLoaded", function () {
 
-const footer = document.querySelector("footer");
-
-if (footer) {
-footer.insertAdjacentHTML("beforeend", `
-<div class="social-icons">
-
-<a href="https://www.facebook.com/YCSSNGO" target="_blank">📘</a>
-
-<a href="https://www.instagram.com/" target="_blank">📷</a>
-
-<a href="https://www.linkedin.com/" target="_blank">💼</a>
-
-<a href="https://www.youtube.com/" target="_blank">▶️</a>
-
-</div>
-`);
-}
-
-});
-document.addEventListener("DOMContentLoaded", function () {
-
-const logo = document.querySelector(".logo");
-
-if (logo) {
-logo.innerHTML = `
-<img src="YCSS-logo.jpg" alt="YCSS Logo">
-
-<div>
-<h1>YCSS NGO</h1>
-<p>Yuva Chaithanya Seva Samithi</p>
-</div>
-`;
-}
-
-});
 var pressIndex = 0;
 
 showPressSlides();
