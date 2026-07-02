@@ -109,3 +109,18 @@ function showPressSlides() {
 
   setTimeout(showPressSlides, 3000);
 }
+document.addEventListener("DOMContentLoaded", function () {
+
+    const wa = document.querySelector(".whatsapp-float");
+
+    if (wa) {
+        wa.innerHTML = `
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat with YCSS</span>
+        `;
+
+        wa.href = "https://wa.me/919030946444?text=Hello%20YCSS%20NGO";
+        wa.title = "Chat with YCSS";
+    }
+
+});
