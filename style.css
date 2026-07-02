@@ -1138,3 +1138,69 @@ nav a[href="donate.html"]:hover{
         box-shadow:0 0 5px #ff9800;
     }
 }
+/* Donate Button */
+
+.donate-btn{
+
+background:linear-gradient(45deg,#ff9800,#ff5722);
+
+color:#fff !important;
+
+padding:10px 20px;
+
+border-radius:30px;
+
+font-weight:bold;
+
+text-decoration:none;
+
+/* Home కి కొంచెం gap */
+margin-right:30px;
+
+animation:donateGlow 1.5s infinite;
+
+transition:.3s;
+
+}
+
+/* ❤️ Heart Auto Add */
+
+.donate-btn::before{
+
+content:"❤️ ";
+
+animation:heartBeat .8s infinite;
+
+display:inline-block;
+
+}
+
+@keyframes heartBeat{
+
+0%{transform:scale(1);}
+
+25%{transform:scale(1.3);}
+
+50%{transform:scale(1);}
+
+75%{transform:scale(1.3);}
+
+100%{transform:scale(1);}
+
+}
+
+@keyframes donateGlow{
+
+0%{
+box-shadow:0 0 5px #ff9800;
+}
+
+50%{
+box-shadow:0 0 20px #ff9800,0 0 35px #ffd54f;
+}
+
+100%{
+box-shadow:0 0 5px #ff9800;
+}
+
+}
