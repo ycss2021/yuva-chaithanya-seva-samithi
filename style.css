@@ -1096,3 +1096,17 @@ transition:.4s;
 .program-grid .card img:hover{
 transform:scale(1.05);
 }
+.footer-container h3{
+    color:#FFD700;
+}
+
+.footer-container p,
+.footer-container a{
+    color:#ffffff;
+    text-decoration:none;
+    line-height:2;
+}
+
+.footer-container a:hover{
+    color:#ffb300;
+}
