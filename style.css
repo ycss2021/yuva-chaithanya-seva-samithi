@@ -1110,3 +1110,31 @@ transform:scale(1.05);
 .footer-container a:hover{
     color:#ffb300;
 }
+/* ===== Donate Button Highlight ===== */
+
+nav a[href="donate.html"]{
+    background:#ff9800;
+    color:#fff !important;
+    padding:10px 18px;
+    border-radius:30px;
+    font-weight:bold;
+    animation:donateGlow 1.5s infinite;
+    transition:.3s;
+}
+
+nav a[href="donate.html"]:hover{
+    background:#e65100;
+    transform:scale(1.08);
+}
+
+@keyframes donateGlow{
+    0%{
+        box-shadow:0 0 5px #ff9800;
+    }
+    50%{
+        box-shadow:0 0 20px #ff9800,0 0 35px #ffd54f;
+    }
+    100%{
+        box-shadow:0 0 5px #ff9800;
+    }
+}
