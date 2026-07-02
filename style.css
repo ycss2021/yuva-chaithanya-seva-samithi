@@ -36,7 +36,7 @@ margin:auto;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:12px 0;
+padding:10px 0;
 }
 
 .logo h1{
@@ -89,7 +89,7 @@ width:100%;
 
 .hero{
 
-height:92vh;
+height:88vh;
 
 background:
 
@@ -207,7 +207,7 @@ transform:translateY(-5px);
 
 .impact{
 
-padding:90px 8%;
+padding:70px 8%;
 
 background:white;
 
@@ -277,7 +277,7 @@ ABOUT
 ==================================================*/
 
 .about-home{
-padding:90px 10%;
+padding:45px 10%;
 text-align:center;
 background:#eef5ff;
 }
@@ -292,7 +292,7 @@ margin-bottom:30px;
 .about-home p{
 max-width:1000px;
 margin:auto;
-font-size:20px;
+font-size:19px;
 line-height:1.9;
 color:#444;
 }
@@ -440,9 +440,9 @@ FOOTER
 footer{
 background:#002147;
 color:#fff;
-padding:50px 20px;
+padding:35px 20px;
 text-align:center;
-margin-top:50px;
+margin-top:0;
 }
 
 footer p{
@@ -768,8 +768,11 @@ transition:.3s;
 }
 
 .social-icons a:hover{
+
 background:#25D366;
-transform:scale(1.1);
+
+transform:translateY(-5px);
+
 }
 .logo{
 display:flex;
@@ -778,8 +781,8 @@ gap:15px;
 }
 
 .logo img{
-width:60px;
-height:60px;
+width:55px;
+height:55px;
 object-fit:contain;
 background:#fff;
 border-radius:50%;
@@ -788,7 +791,7 @@ padding:4px;
 
 .logo h1{
 margin:0;
-font-size:30px;
+font-size:28px;
 color:#fff;
 }
 
@@ -830,7 +833,7 @@ color:#ddd;
 }
 .program-grid .card img{
     width:100%;
-    height:250px;
+    height:220px;
     object-fit:cover;
     border-radius:10px;
     transition:0.3s;
@@ -891,14 +894,14 @@ flex-direction:column;
 
 justify-content:space-between;
 
-min-height:420px;
+min-height:360px;
 
 }
 .card p{
 
 flex-grow:1;
 
-line-height:2;
+line-height:1.8;
 
 }
 .card .btn{
@@ -929,8 +932,17 @@ box-shadow:none;
 }
 .verify-btn{
 
-margin-top:35px;
-
+margin-top:15px;
 text-align:center;
+
+}
+.about-home{
+
+min-height:auto;
+
+}
+.btn{
+
+box-shadow:0 10px 25px rgba(0,0,0,.20);
 
 }
