@@ -914,10 +914,16 @@ text-align:center;
 }
 .btn.disabled{
 
+background:#ff6b00;
+
+color:#fff;
+
 pointer-events:none;
 
-cursor:default;
+cursor:not-allowed;
 
-background:#ff6b00;
+opacity:0.85;
+
+box-shadow:none;
 
 }
