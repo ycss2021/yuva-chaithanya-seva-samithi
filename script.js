@@ -135,3 +135,26 @@ logo.innerHTML = `
 }
 
 });
+var pressIndex = 0;
+
+showPressSlides();
+
+function showPressSlides() {
+
+  var i;
+  var slides = document.getElementsByClassName("pressSlide");
+
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  pressIndex++;
+
+  if (pressIndex > slides.length) {
+    pressIndex = 1;
+  }
+
+  slides[pressIndex - 1].style.display = "block";
+
+  setTimeout(showPressSlides, 3000);
+}
