@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <span>Chat with YCSS</span>
         `;
 
-        wa.href = "https://wa.me/919030946444?text=Hello%20YCSS%20NGO";
+        wa.href = "https://wa.me/91955394644?text=Hello%20YCSS%20NGO";
         wa.title = "Chat with YCSS";
     }
 
